@@ -1,0 +1,268 @@
+.bg {
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.header {
+  background-color: #ffffff;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header img {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.header p {
+  font-size: 16px;
+  font-weight: 550;
+  margin-left: 34%;
+  margin-top: 3%;
+}
+
+.container {
+  background-color: #e6e6e6;
+}
+
+.header {
+  margin-left: 20px;
+  background-color: #e6e6e6;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 30px;
+}
+
+input {
+  width: 300px;
+  height: 38px;
+  margin-top: 6px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: none;
+  border: 1px solid #ffffff;
+  margin-right: 5px;
+}
+
+input::-webkit-input-placeholder {
+  padding-left: 20px;
+}
+
+input:-ms-input-placeholder {
+  padding-left: 20px;
+}
+
+input::-ms-input-placeholder {
+  padding-left: 20px;
+}
+
+input::placeholder {
+  padding-left: 20px;
+}
+
+.header img {
+  margin-top: 17px;
+}
+
+.list {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 0 20%;
+          flex: 0 0 0 20%;
+  background-color: #f5f5f5;
+}
+
+.list img {
+  margin-left: 34px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+
+.list h5 {
+  margin-left: 45px;
+  font-weight: bold;
+}
+
+.inform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.right {
+  height: 140px;
+  width: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.right img {
+  width: 120px;
+  height: 80px;
+  margin-top: 2px;
+  margin-right: 1px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left h3 {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.left span {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: red;
+}
+
+.reward {
+  height: 100px;
+}
+
+.ward {
+  height: 100px;
+}
+
+.release {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.footer {
+  height: 340px;
+  width: 95%;
+  margin-left: 10px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.goods {
+  height: 30px;
+}
+
+.goods img {
+  height: 30px;
+  width: 30px;
+  margin-top: 2px;
+  border-radius: 50%;
+}
+
+.goods p {
+  margin-top: -28px;
+  margin-left: 40px;
+  color: #161414;
+}
+
+.icon {
+  height: 45px;
+  width: 45px;
+  margin-top: 25px;
+  margin-left: 12px;
+}
+
+.cc-df {
+  background-color: white;
+}
+
+.cc-df p {
+  margin-left: 7px;
+  margin-top: -1px;
+  font-size: 14px;
+  font-weight: 550;
+  color: #6e6e6b;
+}
+
+.hotShop {
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.grid {
+  width: 90%;
+  margin: 10px auto;
+  -webkit-columns: 4;
+          columns: 4;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+}
+
+.grid .box {
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding: 4px;
+  background: #fff;
+  overflow: hidden;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.box p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.box span {
+  color: red;
+}
+
+.grid .box img {
+  max-width: 100%;
+}
+
+@media (max-width: 700px) {
+  .grid {
+    -webkit-columns: 2;
+            columns: 2;
+    width: calc(100% - 15px);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+@media (max-width: 373px) {
+  .grid {
+    -webkit-columns: 1;
+            columns: 1;
+  }
+}
+
+.images {
+  border-radius: 10px;
+  height: 100%;
+}
+
+.sider {
+  height: 160px;
+}
+/*# sourceMappingURL=HomePage.css.map */

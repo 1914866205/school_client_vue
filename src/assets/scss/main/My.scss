@@ -1,0 +1,90 @@
+.bg {
+    position: absolute;
+    width: 100%;
+    background-image: url("https://zhxy-vue.oss-cn-hangzhou.aliyuncs.com/icon/bg_wode.png");
+    background-size: cover;
+  }
+  .header {
+    margin-top: 8%;
+    .name{
+      color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    }
+    .phone{
+    color: white;
+    margin-top: 6px;
+    font-size: 12px;
+    }
+  }
+  .header img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    
+  }
+
+  .info {
+    width: 93%;
+    margin-top: 11%;
+    margin-left: 3%;
+    background-color: balck;
+    z-index: 1000000;
+  }
+  .info-left1 img {
+    width: 17%;
+    height: 17%;
+    position: relative;
+    top: 2px;
+  }
+  .info-left1 p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #666666;
+  }
+  .info-left2 img {
+    width: 17%;
+    height: 17%;
+    position: relative;
+    top: 2px;
+  }
+  .info-left2 p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #666666;
+  }
+  .info-left3 img {
+    width: 17%;
+    height: 17%;
+    position: relative;
+    top: 4px;
+  }
+  .info-left3 p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #666666;
+  }
+  .info-left4 img {
+    width: 17%;
+    height: 17%;
+    position: relative;
+    top: 0px;
+  }
+  .info-left4 p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #666666;
+  }
+  .info-right img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .line {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background: #ececec;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }

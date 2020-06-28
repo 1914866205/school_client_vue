@@ -1,0 +1,116 @@
+.bg {
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.header {
+  background-color: #ffffff;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header img {
+  height: 20px;
+  width: 30px;
+  margin-top: 20px;
+}
+
+.header p {
+  font-size: 16px;
+  font-weight: 550;
+  margin-left: 34%;
+  margin-top: 3%;
+}
+
+.container {
+  padding: 10px 10px;
+}
+
+.hengzhe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.hengzhe .suolue {
+  width: 100px;
+  height: 100px;
+}
+
+h4 {
+  margin-top: 10px;
+  font-weight: 20px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.up-pic {
+  width: 90px;
+  height: 90px;
+  margin-left: 140px;
+  border: none;
+}
+
+.upload {
+  height: 100px;
+}
+
+.list {
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+.price input {
+  height: 30px;
+  width: 90%;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+select {
+  height: 30px;
+  width: 90%;
+  border: none;
+  margin-top: 5px;
+}
+
+button {
+  height: 40px;
+  width: 45%;
+  margin-top: 80px;
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(#1E88E5), to(#1170bc));
+  background-image: linear-gradient(to right, #1E88E5, #1170bc);
+  color: white;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+button:hover {
+  background-color: #1170bc;
+}
+
+.option {
+  width: auto;
+  position: absolute;
+  left: 50%;
+}
+/*# sourceMappingURL=Sell.css.map */
